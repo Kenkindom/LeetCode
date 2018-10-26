@@ -5,6 +5,7 @@
 class Solution {
 public:
     vector<string> letterCombinations(string digits) {
+        // reference from https://ppt.cc/fskrVx
         if (digits.empty()) return {};
         vector<string> res{""};
         string dict[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
